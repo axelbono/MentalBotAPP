@@ -285,6 +285,27 @@
     }
 
 
+    /* SCREENSHOTS */
+    .screenshots {
+      margin: 100px 0 0;
+      opacity: 0;
+      animation: fadeUp .7s 1s ease forwards;
+    }
+    .screenshot img {
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+      display: block;
+    }
+    .screenshot figcaption {
+      margin-top: 10px;
+      font-size: .88rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+
 
     /* FOOTER */
     footer {
@@ -364,6 +385,23 @@
     </div>
   </div>
 
+  <!-- SCREENSHOTS -->
+  <section class="screenshots">
+    <p class="section-label">Imágenes de la app</p>
+    <div class="grid">
+      <figure class="screenshot">
+        <img src="imgs/screenshot1.png" alt="Captura de la pantalla principal de MentalBot" />
+      </figure>
+      <figure class="screenshot">
+        <img src="imgs/screenshot2.png" alt="Captura de la pantalla de seguimiento emocional" />
+      </figure>
+      <figure class="screenshot">
+        <img src="imgs/screenshot3.png" alt="Captura de la pantalla de ejercicios de respiración" />
+      </figure>
+    </div>
+  </section>
+
+
   <!-- FEATURES -->
   <section class="features" id="caracteristicas">
     <p class="section-label">¿Qué ofrece?</p>
@@ -414,8 +452,7 @@
 </footer>
 
 </body>
-<<<<<<< HEAD
+
 </html>
-=======
-</html>
->>>>>>> 61f7199 (Nuevo link)
+
+
